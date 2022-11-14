@@ -1,0 +1,1081 @@
+{
+  level: 'info',
+  message: 'app is up',
+  metadata: { timestamp: '2022-11-14T02:52:59.859Z' }
+}
+{
+  level: 'info',
+  message: 'Connected to MongoDB',
+  metadata: { timestamp: '2022-11-14T02:53:01.879Z' }
+}
+{
+  level: 'info',
+  message: 'app is up',
+  metadata: { timestamp: '2022-11-14T04:56:31.577Z' }
+}
+{
+  level: 'info',
+  message: 'Connected to MongoDB',
+  metadata: { timestamp: '2022-11-14T04:56:33.331Z' }
+}
+{
+  level: 'info',
+  message: 'user connected zZLTtKPmYNj3GpJ0AAAC',
+  metadata: { timestamp: '2022-11-14T04:59:15.292Z' }
+}
+{
+  level: 'info',
+  message: 'user connected 2ORQGchAAERE6ws9AAAD',
+  metadata: { timestamp: '2022-11-14T04:59:15.316Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/auth',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/auth',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'POST',
+          'access-control-request-headers': 'content-type,x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/auth',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 0
+    },
+    timestamp: '2022-11-14T04:59:18.524Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/auth',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/auth',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '43',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAwOTc3fQ.iQeAWfTIrjqMqWIWB9nYwAYP3XlDRZO96RlnMcHPKjI',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/auth',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 279
+    },
+    timestamp: '2022-11-14T04:59:18.820Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/codeblock',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/codeblock',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'GET',
+          'access-control-request-headers': 'x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/codeblock',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 0
+    },
+    timestamp: '2022-11-14T04:59:18.868Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'HTTP GET /api/codeblock',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/codeblock',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAwOTc3fQ.iQeAWfTIrjqMqWIWB9nYwAYP3XlDRZO96RlnMcHPKjI',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6',
+          'if-none-match': 'W/"db5-0A8hlxE5+x7aTZsZzszXVb8wr+4"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/api/codeblock',
+        query: {}
+      },
+      res: { statusCode: 400 },
+      responseTime: 2
+    },
+    timestamp: '2022-11-14T04:59:18.875Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'HTTP GET /api/codeblock',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/codeblock',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAwOTc3fQ.iQeAWfTIrjqMqWIWB9nYwAYP3XlDRZO96RlnMcHPKjI',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/api/codeblock',
+        query: {}
+      },
+      res: { statusCode: 400 },
+      responseTime: 1
+    },
+    timestamp: '2022-11-14T04:59:18.879Z'
+  }
+}
+{
+  level: 'error',
+  message: 'Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client',
+  metadata: {
+    code: 'ERR_HTTP_HEADERS_SENT',
+    stack: 'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+      '    at new NodeError (node:internal/errors:393:5)\n' +
+      '    at ServerResponse.setHeader (node:_http_outgoing:644:11)\n' +
+      '    at ServerResponse.header (C:\\Users\\User\\source\\repos\\לקראת ראיון עבודה\\moveo_project\\gitproject\\Code_Observer\\server\\node_modules\\express\\lib\\response.js:794:10)\n' +
+      '    at ServerResponse.send (C:\\Users\\User\\source\\repos\\לקראת ראיון עבודה\\moveo_project\\gitproject\\Code_Observer\\server\\node_modules\\express\\lib\\response.js:174:12)\n' +
+      '    at ServerResponse.json (C:\\Users\\User\\source\\repos\\לקראת ראיון עבודה\\moveo_project\\gitproject\\Code_Observer\\server\\node_modules\\express\\lib\\response.js:278:15)\n' +
+      '    at ServerResponse.send (C:\\Users\\User\\source\\repos\\לקראת ראיון עבודה\\moveo_project\\gitproject\\Code_Observer\\server\\node_modules\\express\\lib\\response.js:162:21)\n' +
+      '    at C:\\Users\\User\\source\\repos\\לקראת ראיון עבודה\\moveo_project\\gitproject\\Code_Observer\\server\\routers\\codeblockRouter.js:8:21\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+    timestamp: '2022-11-14T04:59:19.037Z'
+  }
+}
+{
+  level: 'error',
+  message: 'Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client',
+  metadata: {
+    code: 'ERR_HTTP_HEADERS_SENT',
+    stack: 'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+      '    at new NodeError (node:internal/errors:393:5)\n' +
+      '    at ServerResponse.setHeader (node:_http_outgoing:644:11)\n' +
+      '    at ServerResponse.header (C:\\Users\\User\\source\\repos\\לקראת ראיון עבודה\\moveo_project\\gitproject\\Code_Observer\\server\\node_modules\\express\\lib\\response.js:794:10)\n' +
+      '    at ServerResponse.send (C:\\Users\\User\\source\\repos\\לקראת ראיון עבודה\\moveo_project\\gitproject\\Code_Observer\\server\\node_modules\\express\\lib\\response.js:174:12)\n' +
+      '    at ServerResponse.json (C:\\Users\\User\\source\\repos\\לקראת ראיון עבודה\\moveo_project\\gitproject\\Code_Observer\\server\\node_modules\\express\\lib\\response.js:278:15)\n' +
+      '    at ServerResponse.send (C:\\Users\\User\\source\\repos\\לקראת ראיון עבודה\\moveo_project\\gitproject\\Code_Observer\\server\\node_modules\\express\\lib\\response.js:162:21)\n' +
+      '    at C:\\Users\\User\\source\\repos\\לקראת ראיון עבודה\\moveo_project\\gitproject\\Code_Observer\\server\\routers\\codeblockRouter.js:8:21\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+    timestamp: '2022-11-14T04:59:19.042Z'
+  }
+}
+{
+  level: 'info',
+  message: 'disconnect',
+  metadata: { timestamp: '2022-11-14T04:59:22.498Z' }
+}
+{
+  level: 'info',
+  message: 'disconnect',
+  metadata: { timestamp: '2022-11-14T04:59:22.499Z' }
+}
+{
+  level: 'info',
+  message: 'user connected uSKjNjygbhepCMquAAAG',
+  metadata: { timestamp: '2022-11-14T04:59:24.588Z' }
+}
+{
+  level: 'info',
+  message: 'user connected yhdUt99rPjFuiYfcAAAH',
+  metadata: { timestamp: '2022-11-14T04:59:24.610Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/auth',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/auth',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'POST',
+          'access-control-request-headers': 'content-type,x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/auth',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 0
+    },
+    timestamp: '2022-11-14T04:59:31.509Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/auth',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/auth',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '43',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTU4fQ.ZezyS9n1ThD-kJ5k6DC81bQpBdqBRGEV3GP_6Pu7RVY',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/auth',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 235
+    },
+    timestamp: '2022-11-14T04:59:31.748Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/codeblock',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/codeblock',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'GET',
+          'access-control-request-headers': 'x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/codeblock',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 0
+    },
+    timestamp: '2022-11-14T04:59:31.780Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /api/codeblock',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/codeblock',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTU4fQ.ZezyS9n1ThD-kJ5k6DC81bQpBdqBRGEV3GP_6Pu7RVY',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/api/codeblock',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 158
+    },
+    timestamp: '2022-11-14T04:59:31.944Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/users',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/users',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'GET',
+          'access-control-request-headers': 'x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/users',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 0
+    },
+    timestamp: '2022-11-14T04:59:33.172Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/users',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/users',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'GET',
+          'access-control-request-headers': 'x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/users',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 0
+    },
+    timestamp: '2022-11-14T04:59:33.174Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /api/users',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/users',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTU4fQ.ZezyS9n1ThD-kJ5k6DC81bQpBdqBRGEV3GP_6Pu7RVY',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6',
+          'if-none-match': 'W/"704-qWUk0yTmjErEI9Ioe+ErZ96hib8"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/api/users',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 165
+    },
+    timestamp: '2022-11-14T04:59:33.340Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /api/users',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/users',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTU4fQ.ZezyS9n1ThD-kJ5k6DC81bQpBdqBRGEV3GP_6Pu7RVY',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/api/users',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 163
+    },
+    timestamp: '2022-11-14T04:59:33.347Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/user-codeblock',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'POST',
+          'access-control-request-headers': 'content-type,x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 0
+    },
+    timestamp: '2022-11-14T04:59:40.699Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/user-codeblock',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '385',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTU4fQ.ZezyS9n1ThD-kJ5k6DC81bQpBdqBRGEV3GP_6Pu7RVY',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 184
+    },
+    timestamp: '2022-11-14T04:59:40.885Z'
+  }
+}
+{
+  level: 'info',
+  message: 'user connected L-V3EBkat5Br9TmVAAAK',
+  metadata: { timestamp: '2022-11-14T04:59:46.341Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/user-codeblock/verify',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock/verify',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'POST',
+          'access-control-request-headers': 'content-type,x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock/verify',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 0
+    },
+    timestamp: '2022-11-14T04:59:46.349Z'
+  }
+}
+{
+  level: 'info',
+  message: 'user connected QPIJnzeA394HXn-4AAAL',
+  metadata: { timestamp: '2022-11-14T04:59:46.369Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/user-codeblock/verify',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock/verify',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '38',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTcxfQ.GfmxXf4VXks4xLaxLKJC5OrNnd31w6V_9lxiRXFqq1I',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock/verify',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 323
+    },
+    timestamp: '2022-11-14T04:59:46.676Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/user-codeblock/verify',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock/verify',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '38',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTcxfQ.GfmxXf4VXks4xLaxLKJC5OrNnd31w6V_9lxiRXFqq1I',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock/verify',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 328
+    },
+    timestamp: '2022-11-14T04:59:46.679Z'
+  }
+}
+{
+  level: 'info',
+  message: 'disconnect',
+  metadata: { timestamp: '2022-11-14T04:59:50.779Z' }
+}
+{
+  level: 'info',
+  message: 'disconnect',
+  metadata: { timestamp: '2022-11-14T04:59:50.780Z' }
+}
+{
+  level: 'info',
+  message: 'user connected WlDITpm1Arc91GYkAAAO',
+  metadata: { timestamp: '2022-11-14T04:59:54.922Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/user-codeblock/verify',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock/verify',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'POST',
+          'access-control-request-headers': 'content-type,x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock/verify',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 0
+    },
+    timestamp: '2022-11-14T04:59:54.931Z'
+  }
+}
+{
+  level: 'info',
+  message: 'user connected S8Axdd8QjiJsTot9AAAP',
+  metadata: { timestamp: '2022-11-14T04:59:54.993Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/user-codeblock/verify',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock/verify',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '38',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTcxfQ.GfmxXf4VXks4xLaxLKJC5OrNnd31w6V_9lxiRXFqq1I',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock/verify',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 325
+    },
+    timestamp: '2022-11-14T04:59:55.258Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/user-codeblock/verify',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock/verify',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '38',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTcxfQ.GfmxXf4VXks4xLaxLKJC5OrNnd31w6V_9lxiRXFqq1I',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock/verify',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 321
+    },
+    timestamp: '2022-11-14T04:59:55.260Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/auth/student-login',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/auth/student-login',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'POST',
+          'access-control-request-headers': 'content-type,x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/auth/student-login',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 1
+    },
+    timestamp: '2022-11-14T05:00:00.530Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/auth/student-login',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/auth/student-login',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '79',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTcxfQ.GfmxXf4VXks4xLaxLKJC5OrNnd31w6V_9lxiRXFqq1I',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/auth/student-login',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 398
+    },
+    timestamp: '2022-11-14T05:00:00.930Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP OPTIONS /api/user-codeblock/verify',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock/verify',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          accept: '*/*',
+          'access-control-request-method': 'POST',
+          'access-control-request-headers': 'content-type,x-auth-token',
+          origin: 'http://localhost:3000',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'OPTIONS',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock/verify',
+        query: {}
+      },
+      res: { statusCode: 204 },
+      responseTime: 0
+    },
+    timestamp: '2022-11-14T05:00:00.964Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/user-codeblock/verify',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock/verify',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '38',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTcxfQ.GfmxXf4VXks4xLaxLKJC5OrNnd31w6V_9lxiRXFqq1I',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock/verify',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 311
+    },
+    timestamp: '2022-11-14T05:00:01.276Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/user-codeblock/verify',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock/verify',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '38',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTU4fQ.ZezyS9n1ThD-kJ5k6DC81bQpBdqBRGEV3GP_6Pu7RVY',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock/verify',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 315
+    },
+    timestamp: '2022-11-14T05:00:03.894Z'
+  }
+}
+{
+  level: 'info',
+  message: 'HTTP POST /api/user-codeblock/verify',
+  metadata: {
+    meta: {
+      req: {
+        url: '/api/user-codeblock/verify',
+        headers: {
+          host: 'localhost:3002',
+          connection: 'keep-alive',
+          'content-length': '38',
+          'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+          accept: 'application/json, text/plain, */*',
+          'content-type': 'application/json',
+          'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzcxNDI1M2Y0YzU5MGEwMGFlMzg1ZjMiLCJpc01lbnRvciI6dHJ1ZSwiaWF0IjoxNjY4NDAxOTU4fQ.ZezyS9n1ThD-kJ5k6DC81bQpBdqBRGEV3GP_6Pu7RVY',
+          'sec-ch-ua-mobile': '?0',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+          'sec-ch-ua-platform': '"Windows"',
+          origin: 'http://localhost:3000',
+          'sec-fetch-site': 'same-site',
+          'sec-fetch-mode': 'cors',
+          'sec-fetch-dest': 'empty',
+          referer: 'http://localhost:3000/',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6'
+        },
+        method: 'POST',
+        httpVersion: '1.1',
+        originalUrl: '/api/user-codeblock/verify',
+        query: {}
+      },
+      res: { statusCode: 200 },
+      responseTime: 321
+    },
+    timestamp: '2022-11-14T05:00:03.904Z'
+  }
+}
+{
+  level: 'info',
+  message: 'disconnect',
+  metadata: { timestamp: '2022-11-14T05:00:17.884Z' }
+}
+{
+  level: 'info',
+  message: 'disconnect',
+  metadata: { timestamp: '2022-11-14T05:00:17.885Z' }
+}
+{
+  level: 'info',
+  message: 'disconnect',
+  metadata: { timestamp: '2022-11-14T05:00:21.223Z' }
+}
+{
+  level: 'info',
+  message: 'disconnect',
+  metadata: { timestamp: '2022-11-14T05:00:21.224Z' }
+}
