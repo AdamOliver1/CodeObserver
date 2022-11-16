@@ -1,11 +1,11 @@
 ## Code Observer website 💻
 
 
-An e2e project that let teachers observe students codeing in live!
+An e2e project that let teachers observe there students coding in live!
 
 ***Includes:***
 * 👓 Rest API that handles all the logic - node.js
-* 🖥 Web app for displaying the live coding (JS highlight) - React js & scket.io.
+* 🖥 Web app for displaying the live coding (JS highlight) - React js & socket.io
 * 💾 Database - mongodb
 * 🔒 Login authorization and authentication - json web tokens
 * ☁️ Deployment by Heroku & Atlas mongodb
@@ -14,12 +14,12 @@ An e2e project that let teachers observe students codeing in live!
 url: https://limitless-coast-39744.herokuapp.com
 
 Mentor credentials:
-username: michael1
-password: 123456
+Username: michael1
+Password: 123456
 
-student credentials:
-username: dwight1
-password: 123456
+Student credentials:
+Username: dwight1
+Password: 123456
 
 ## Running the project
 Clone this repository
