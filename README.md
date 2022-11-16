@@ -1,7 +1,7 @@
 ## Code Observer website 💻
 
 
-An e2e project that let teachers observe there students coding in live!
+An e2e project that enables teachers to observe live online, as their students program code!
 
 ***Includes:***
 * 👓 Rest API that handles all the logic - node.js
