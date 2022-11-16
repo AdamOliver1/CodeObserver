@@ -15,10 +15,9 @@ url: https://limitless-coast-39744.herokuapp.com
 
 Mentor credentials:
 username: michael1
-
 password: 123456
-student credentials:
 
+student credentials:
 username: dwight1
 password: 123456
 
