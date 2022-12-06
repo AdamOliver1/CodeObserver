@@ -10,9 +10,6 @@ An e2e project that enables teachers to observe live online, as their students p
 * 🔒 Login authorization and authentication - json web tokens
 * ☁️ Deployment by Heroku & Atlas mongodb
 
-## Deployment
-url: https://limitless-coast-39744.herokuapp.com
-
 Mentor credentials:
 Username: michael1
 Password: 123456
